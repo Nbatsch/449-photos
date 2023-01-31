@@ -9,6 +9,9 @@
     height: 100px;
 }
 
+body {
+    background-color: antiquewhite;
+}
 
 #webhead {
     font-family: "Sabon-Font", sans-serif;
@@ -28,8 +31,20 @@
 
 a#imglink {
     display: flex;
-    width: 33.25%;
+    width: 33.297%;
    
+}
+
+#fullportrait {
+    border-radius: 30px;
+}
+
+#img7 {
+    border-bottom-left-radius: 20px;
+}
+
+#img9 {
+    border-bottom-right-radius: 20px;
 }
 
 #gallery1 img {
