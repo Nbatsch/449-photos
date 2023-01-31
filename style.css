@@ -4,6 +4,7 @@
     height: 100px;
 }
 
+
 #webhead {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 45px;
@@ -13,21 +14,25 @@
     float: right;
 }
 
-#imglink img {
-    
-    
+a#imglink {
+    display: flex;
+    width: 33.25%;
+   
 }
 
 #gallery1 img {
     width: 33%;
+    flex-grow: 1;
 }
 
 #gallery2 img {
     width: 33%;
+    flex-grow: 1;
 }
 
 #gallery3 img {
     width: 33%;
+    flex-grow: 1;
 }
 
 #gallery1 {
