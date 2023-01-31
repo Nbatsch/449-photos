@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Sabon-Font";
+    src: url(Sabon-Font/Sabon-Roman.ttf) format("truetype");
+}
+
 #logo {
     float: left;
     width: 150px;
@@ -6,8 +11,15 @@
 
 
 #webhead {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Sabon-Font", sans-serif;
     padding-top: 45px;
+}
+
+#portraitdet {
+    font-family: "Sabon-Font", sans-serif;
+    padding-top: 45px;
+    
+
 }
 
 #navbar {
